@@ -675,3 +675,22 @@ padding-left: 0 !important;
      inline-size: 200px;
   }
  }
+
+ @media screen and (max-width:360px) {
+   .bo{
+      left: 9px;
+      width: 62%;
+   }
+
+   /* .space p {
+      inline-size: 309px;
+  }
+
+  .dep2 .icon-n {
+   left: 134%;
+}
+
+.dep3 .icon-n {
+   left: 119%;
+} */
+ }
