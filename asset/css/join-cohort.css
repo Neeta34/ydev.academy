@@ -605,8 +605,8 @@ padding-left: 0 !important;
 .bo{
    top: 74px;
    height: 65%;
-   left: 3%;
-   width: 56%;
+   left: 9px;
+   width: 57%;
 }
 
 .enrol2 .reg{
@@ -625,6 +625,14 @@ padding-left: 0 !important;
 .ydev p{
     font-size: 12px;
     inline-size: 285px;
+}
+
+
+.bo2{
+   left: 125px;
+   width: 37%;
+   height: 66%;
+   top: 27px;
 }
 
     .about{
@@ -676,11 +684,7 @@ padding-left: 0 !important;
   }
  }
 
- @media screen and (max-width:768px) {
-   .bo{
-      left: 9px;
-      width: 6% ;
-   }
+
 
    /* .space p {
       inline-size: 309px;
@@ -693,4 +697,4 @@ padding-left: 0 !important;
 .dep3 .icon-n {
    left: 119%;
 } */
- }
+ 
