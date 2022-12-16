@@ -684,14 +684,14 @@ padding-left: 0 !important;
   }
  }
 
- @media screen and (max-width:600px) {
+ /* @media screen and (max-width:600px) {
    .bo{
       top: 74px;
       height: 65%;
       left: 15px;
       width: 50%;
    }
- }
+ } */
 
 @media screen and (max-width:414px) {
    
@@ -706,7 +706,7 @@ padding-left: 0 !important;
 .bo2{
    height: 69%;
    top: 25px;
-   left: 630px;
+   left: 616px;
    width: 10%;
 }
 }
