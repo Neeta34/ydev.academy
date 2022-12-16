@@ -684,7 +684,15 @@ padding-left: 0 !important;
   }
  }
 
-
+@media screen and (max-width:360px) {
+   
+.bo{
+   top: 74px;
+   height: 65%;
+   left: 9px;
+   width: 57%;
+}
+}
 
    /* .space p {
       inline-size: 309px;
