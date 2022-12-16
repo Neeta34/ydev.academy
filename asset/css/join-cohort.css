@@ -706,18 +706,18 @@ padding-left: 0 !important;
 .bo2{
    height: 69%;
    top: 25px;
-   right: 50%;
-   width: 18%;
+   left: 35%;
+   width: 33%;
 }
 }
 
-@media (max-width:360px) {
-   .bo2{
+@media (max-width:390px) {
+   .bo2 {
       height: 69%;
-   top: 25px;
-   right: 10px;
-   width: 18%;
-   }
+      top: 25px;
+      left: 33%;
+      width: 36%;
+  }
 }
 
    /* .space p {
