@@ -711,6 +711,15 @@ padding-left: 0 !important;
 }
 }
 
+@media (max-width:360px) {
+   .bo2{
+      height: 69%;
+   top: 25px;
+   right: 10px;
+   width: 18%;
+   }
+}
+
    /* .space p {
       inline-size: 309px;
   }
