@@ -684,6 +684,15 @@ padding-left: 0 !important;
   }
  }
 
+ @media screen and (max-width:600px) {
+   .bo{
+      top: 74px;
+      height: 65%;
+      left: 15px;
+      width: 50%;
+   }
+ }
+
 @media screen and (max-width:414px) {
    
 .bo{
@@ -691,6 +700,14 @@ padding-left: 0 !important;
    height: 65%;
    left: 11px;
    width: 50%;
+}
+
+
+.bo2{
+   height: 69%;
+   top: 25px;
+   left: 630px;
+   width: 10%;
 }
 }
 
