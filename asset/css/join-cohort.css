@@ -676,10 +676,10 @@ padding-left: 0 !important;
   }
  }
 
- @media screen and (max-width:360px) {
+ @media screen and (max-width:768px) {
    .bo{
       left: 9px;
-      width: 6%;
+      width: 6% ;
    }
 
    /* .space p {
