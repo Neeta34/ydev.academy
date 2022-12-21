@@ -10,10 +10,6 @@
    background-color: #FFFFFF;
  }
 
- .book .container{
-   /* padding-top: 0% !important; */
- }
-
  .book{
    margin-bottom: 10%;
  }
@@ -149,25 +145,69 @@
  
   .butn .btn-join:hover{
     color: #fff;
-    background-color: #188DAF;
-    border-color: #188DAF !important;
+    /* background-color: #188DAF; */
+    /* border-color: #188DAF !important; */
 
  }
- 
- .bo{
-    position: absolute;
-    height: 46%;
-    border-radius: 7px;
-    top: 69px;
-    left: -38%;
-    width: 100%;
-    /* z-index: -2; */
-    border: 0.4px solid rgb(5, 26, 38);
- }
+
+.butn .btn-join::after{
+   content: "";
+   position: absolute;
+   height: 99%;
+   border-radius: 7px;
+   top: 5px;
+   left: 5px;
+   width: 100%;
+   /* z-index: -2; */
+   border: 0.4px solid rgb(5, 26, 38);
+   display: inline-block;
+}
  
   .butn .btn-join:focus{
     box-shadow:  none !important;
  }
+
+ .butn .btn-spot{
+   cursor: pointer;
+   padding:7px 25px;
+   width: 185px;
+   max-width: 100%;
+   max-height: 100%;
+   font-size: 14px;
+   font-weight: 600;
+   display: inline-block;
+   border: 2px solid rgb(5, 26, 38);
+   background-color: rgb(5, 26, 38);
+   color: #fff;
+   border-radius: 7px !important;
+   position: relative;
+   top: 40px;
+   left:-40%
+}
+
+ .butn .btn-spot:hover{
+   color: #fff;
+   /* background-color: #188DAF; */
+   /* border-color: #188DAF !important; */
+
+}
+
+.butn .btn-spot::after{
+  content: "";
+  position: absolute;
+  height: 99%;
+  border-radius: 7px;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  /* z-index:-2; */
+  border: 0.4px solid rgb(5, 26, 38);
+  display: inline-block;
+}
+
+ .butn .btn-spot:focus{
+   box-shadow:  none !important;
+}
 
  .enrol1{
     display: flex;
@@ -201,7 +241,6 @@
  .enrol-text1{
     text-align: center !important;
     font-size: 15px;
-    /* inline-size: 600px !important; */
  }
 
 
@@ -269,9 +308,7 @@
    width: 15%;
 }
 
- .accordion-button:hover {
-   z-index: 0 !important;
- }
+
  .accordion-button:focus {
    z-index: -3;
    background-color:  rgb(0 0 0 / 4%) 0px 1px 24px !important;
@@ -468,7 +505,6 @@
       
         .navbar-light .navbar-toggler-icon {
          background-image: url(/asset/image/threelines.webp) !important;
-         /* width: 40%; */
       }
       .navbar-toggler-icon {
          display: inline-block;
@@ -565,11 +601,6 @@ padding-left: 0 !important;
    width: 41%;
 }
 
-.bo2{
-   left: 125px;
-   width: 37%;
-}
-
 .hero{
    padding-top: 64px !important;
 }
@@ -596,17 +627,23 @@ padding-left: 0 !important;
 }
 
 .butn .btn-join {
-   /* padding: 11px 11px; */
-   /* top: 95px; */
-   left: 2%;
-   /* width: 198px; */
+   position: static;
+ }
+
+ .butn .btn-join::after {
+   height: 15%;
+   top: 250px;
+   width: 52%;
 }
 
-.bo{
-   top: 74px;
-   height: 65%;
-   left: 9px;
-   width: 57%;
+.butn .btn-spot {
+   position: static;
+ }
+
+ .butn .btn-spot::after {
+   height: 14%;
+   top: 283px;
+   width: 52%;
 }
 
 .enrol2 .reg{
@@ -682,60 +719,6 @@ padding-left: 0 !important;
   .about div, a{
      inline-size: 200px;
   }
- }
-
- /* @media screen and (max-width:600px) {
-   .bo{
-      top: 74px;
-      height: 65%;
-      left: 15px;
-      width: 50%;
-   }
- } */
-
-@media screen and (max-width:414px) {
-   
-.bo{
-   top: 74px;
-   height: 65%;
-   left: 11px;
-   width: 50%;
 }
 
-
-.bo2{
-   height: 69%;
-   top: 25px;
-   left: 35%;
-   width: 33%;
-}
-}
-
-@media (max-width:390px) {
-   .bo2 {
-      height: 69%;
-      top: 25px;
-      left: 32%;
-      width: 38%;
-  }
-
-  .bo {
-   top: 74px;
-   height: 65%;
-   left: 16px;
-   width: 53%;
-}
-}
-
-   /* .space p {
-      inline-size: 309px;
-  }
-
-  .dep2 .icon-n {
-   left: 134%;
-}
-
-.dep3 .icon-n {
-   left: 119%;
-} */
  
