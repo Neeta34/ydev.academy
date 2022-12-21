@@ -1218,6 +1218,13 @@ inline-size: 250px;
       font-weight: 900 !important;
    }
 
+   .grid-container div:hover{
+      background-color: #F8F8Ff;
+       display: inline-block;
+      height: 60px !important;
+      width: 130px;
+   }
+
    .gridd{
       padding: 0;
    }
