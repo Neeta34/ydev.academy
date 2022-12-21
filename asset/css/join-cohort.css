@@ -145,8 +145,8 @@
  
   .butn .btn-join:hover{
     color: #fff;
-    /* background-color: #188DAF; */
-    /* border-color: #188DAF !important; */
+    background-color: #188DAF;
+    border-color: #188DAF !important;
 
  }
 
@@ -160,7 +160,8 @@
    width: 100%;
    /* z-index: -2; */
    border: 0.4px solid rgb(5, 26, 38);
-   display: inline-block;
+   display:none;
+
 }
  
   .butn .btn-join:focus{
@@ -187,8 +188,8 @@
 
  .butn .btn-spot:hover{
    color: #fff;
-   /* background-color: #188DAF; */
-   /* border-color: #188DAF !important; */
+   background-color: #188DAF;
+   border-color: #188DAF !important;
 
 }
 
@@ -202,7 +203,7 @@
   width: 100%;
   /* z-index:-2; */
   border: 0.4px solid rgb(5, 26, 38);
-  display: inline-block;
+  display:none;
 }
 
  .butn .btn-spot:focus{
@@ -375,6 +376,7 @@
    left: 614px;
    width: 10%;
    border: 0.4px solid rgb(5, 26, 38);
+   display: none;
 }
  
  
